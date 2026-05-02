@@ -251,16 +251,16 @@ h1.entry-name em{
   color:var(--dimmed);
   letter-spacing:0.1em;
 }
-.logo-coords.top{top:-40px;left:50%;transform:translateX(-50%)}
+.logo-coords.top{top:-80px;left:50%;transform:translateX(-50%)}
 .logo-coords.right{right:-80px;top:50%;transform:translateY(-50%);writing-mode:vertical-rl}
-.logo-coords.bottom{bottom:-40px;left:50%;transform:translateX(-50%)}
+.logo-coords.bottom{bottom:-80px;left:50%;transform:translateX(-50%)}
 .logo-coords.left{left:-80px;top:50%;transform:translateY(-50%);writing-mode:vertical-rl;transform:translateY(-50%) rotate(180deg)}
 
 /* STATUS TICKER */
 .status-bar{
   position:absolute;
   bottom:3rem;
-  left:0;right:0;
+  left:94px;right:0;
   font-family:'Space Mono',monospace;
   font-size:9px;
   color:var(--dimmed);
