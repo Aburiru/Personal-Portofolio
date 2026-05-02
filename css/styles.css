@@ -575,7 +575,7 @@ h2.section-title em{font-style:italic;color:var(--accent)}
 }
 .timeline-dot{
   position:absolute;
-  left:-3.45rem;
+  left:-52px;
   top:0.3rem;
   width:10px;height:10px;
   border-radius:50%;
