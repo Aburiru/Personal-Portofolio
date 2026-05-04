@@ -837,9 +837,11 @@ textarea.form-input{resize:none;height:100px;line-height:1.6}
   .closure-meta{text-align:center}
 
   .glitch:hover{
-    position: relative;
-    content: attr(data-text);
-    color: transparent;
+    content:attr(data-text);
+    position:relative;
+    top:0;left:0;
+    width:100%;
+    color:transparent;
   }
     
   .status-bar {
