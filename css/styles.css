@@ -836,12 +836,10 @@ textarea.form-input{resize:none;height:100px;line-height:1.6}
   #closure{flex-direction:column;text-align:center}
   .closure-meta{text-align:center}
 
-  .entry-name:nth-child(2):active{
-    color:transparent;
-  }
-
-  .entry-name:nth-child(2):active::after{
-    opacity: 1;
+  .glitch:hover{
+    position: relative;
+    content: attr(data-text);
+    color: transparent;
   }
     
   .status-bar {
