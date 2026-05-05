@@ -4,9 +4,21 @@ const ring = document.getElementById('cursorRing');
 const progressLine = document.getElementById('progressLine');
 let mx=0,my=0,rx=0,ry=0;
 
-document.addEventListener('mousemove',e=>{
-  mx=e.clientX;my=e.clientY;
+function handleMove(x,y) {
+  mx=x;my=y;
   cursor.style.left=mx+'px';cursor.style.top=my+'px';
+}
+
+document.addEventListener('mousemove',e=>{
+  handleMove(e.clientX, e.clientY);
+});
+
+document.addEventListener('touchmove',e=>{
+  handleMove(e.touches[0].clientX, e.touches[0].clientY);
+},{passive:false});
+
+document.addEventListener('touchstart',e=>{
+  handleMove(e.touches[0].clientX, e.touches[0].clientY);
 });
 
 function animateRing(){

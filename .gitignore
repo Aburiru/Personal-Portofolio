@@ -11,6 +11,10 @@ Thumbs.db
 # Logs
 *.log
 
+# Tooling
+.claude/
+.gemini/
+
 # Build artefacts (if any are added later)
 /dist/
 /node_modules/
